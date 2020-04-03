@@ -1,7 +1,7 @@
 #=============================================================#
 # +---------------------------------------------------------+ #
 # |       Advanced Achievements Portuguese translation      | #
-# |                     by bolodecenora                     | #
+# |              by bolodecenora and Victor Reis            | #
 # |             ~ Valid as of version 5.9.3 ~               | #
 # |   Newer plugin versions will automatically append new   | #
 # |     untranslated parameters to the end of the file.     | #
@@ -12,6 +12,7 @@ no-permissions: "Você não tem permissão para isso"
 statistic-cooldown: "Tempo de espera das conquistas: aguarde TIME segundos antes que essa ação conte novamente."
 category-does-not-exist: "A categoria e/ou subcategoria CAT não existe."
 all-achievements-received: "Parabéns, você recebeu todas as conquistas!"
+invalid-command: "comando invalido. digite /aach para mostrar o menu de ajuda"
 
 # Related to /aach reload.
 configuration-successfully-reloaded: "Configuração recarregada com sucesso"
@@ -66,6 +67,7 @@ experience-reward-received: "Você recebeu: AMOUNT de experiência!"
 increase-max-health-reward-received: "Sua saúde máxima aumentou em AMOUNT!"
 increase-max-oxygen-reward-received: "Seu oxigênio max aumentou em AMOUNT!"
 
+
 # Related to /aach help.
 aach-command-book: "Receba o seu livro de conquistas"
 aach-command-book-hover: "Itens RP que você pode coletar e trocar com os outros! Listagem baseada em tempo."
@@ -97,6 +99,8 @@ aach-command-reset: "Redefinir estatística para a categoria CAT."
 aach-command-reset-hover: "O jogador deve estar online; exemplo: reset Places.stone Bolodecenora"
 aach-command-generate: "Gerar Conquista."
 aach-command-generate-hover: "Comando potencialmente lento; use com cuidado!"
+aach-command-inspect: "Inspecionar destinatários da ACH."
+aach-command-inspect-hover: "Lista os destinatários mais recentes de uma conquista, no máximo 1000."
 aach-tip: "DICA É possível passar ou clicar nos comandos !"
 
 # Related to /aach info.
@@ -120,6 +124,7 @@ list-goal: "Objetivo:"
 list-reception: "Data de recepção:"
 list-progress: "Progresso:"
 list-reward: "Prêmio: "
+list-rewards: "Prêmios: "
 list-reward-money: "Recebeu AMOUNT Dinheiros"
 list-reward-item: "Recebeu AMOUNT ITEM"
 list-reward-command: "outro"
@@ -130,8 +135,11 @@ list-achievement-received: "&5\u2714&f "
 list-achievement-not-received: "&4\u2718&8 "
 list-category-not-unlocked: "Você ainda não desbloqueou esta categoria."
 list-back-message: "&7Voltar"
+list-back-lore: ""
 list-previous-message: "&7Anterior"
+list-previous-lore: ""
 list-next-message: "&7Próximo"
+list-next-lore: ""
 list-achievements-in-category-singular: "AMOUNT conquista"
 list-achievements-in-category-plural: "AMOUNT conquistas"
 
@@ -184,6 +192,10 @@ list-petmasterreceive: "Animais de estimação recebidos de outro jogador"
 list-smelting: "Itens fundidos"
 list-commands: "Outras conquistas"
 list-custom: "Categorias Personalizadas"
+list-targetsshot: "tiro ao alvos"
+list-raids-won: "Invasões vencidas"
+list-riptides: "Riptides Usados"
+list-advancements-completed: "Avanços concluídos"
 
 # Related to /aach toggle.
 toggle-displayed: "Você será notificado quando outros jogadores conseguirem conquistas."
@@ -194,7 +206,10 @@ reset-successful: " as estatísticas foram apagadas para PLAYER."
 
 # Related to /aach generate.
 advancements-generated: "Avanços foram gerados com sucesso."
-minecraft-not-supported: "Avanços não suportados na sua versão do Minecraft. Por favor, atualize para 1.13."
+minecraft-not-supported: "Avanços não suportados na sua versão do Minecraft. Por favor, atualize para 1.15."
+
+# Related to /aach inspect
+achievement-not-recognized: "Conquista chamada 'NAME' nao foi reconhecida. voce nao quer dizer CLOSEST_MATCH?"
 
 #============================================================#
 # +--------------------------------------------------------+ #
